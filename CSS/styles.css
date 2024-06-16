@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, sans-serif;
+}
+
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(248, 155, 42);
+    position: relative;
+}
+#display{
+    width: 300px;
+}
+h1{
+    position: absolute;
+    top: 50px
+}
+
+input{
+    height: 35px;
+    width: 150px;
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 20px;
+    font-size: larger;
+}
+p{
+    position: absolute;
+    top: 150px;
+    font-size: xx-large;
+}
+#submit-btn{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+#replay-btn{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+
+span{
+    position: absolute;
+    bottom: 25%;
+    font-size: 1.5rem;
+}
+
